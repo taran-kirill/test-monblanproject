@@ -1,14 +1,10 @@
 $pn: 'ProximaNova';
-$gray: #7D7D7D;
-$green: #39FF88;
-$white: #fff; 
-
 *{
   margin: 0;
   padding: 0;
   outline: none;
   text-decoration: none;
-  font: 400 20px $pn;
+  font: 400 17px $pn;
   box-sizing: border-box;
   color: #3d4044;
 }
@@ -30,6 +26,7 @@ input {
     box-shadow: none;
   }
 }
+
 .wrap { 
   max-width: 980px;
   margin: 0 auto; 
@@ -56,13 +53,12 @@ input {
   background: #fff;
   text-transform: uppercase;
   border: 1px solid #000;
-  margin: 0 auto;ы
-  &:hover {
+  margin: 0 auto;
+  &:hover { 
     background: #000;
     color: #fff;
-  }
+  } 
 }
-
 
 .head-project {
   padding: 20px 0;
@@ -115,6 +111,8 @@ input {
           text-align: center;
           padding: 5px 12px;
           font-family: 'MyriadPro';
+          display: flex;
+          align-items: center;
         }
       }
       .statistics {
@@ -276,7 +274,7 @@ input {
           }
           &.column-2,
           &.column-3 {
-            width: calc(50% - 57px);
+            max-width: calc(50% - 57px);
           }
         }
         .row-block {
@@ -352,4 +350,6 @@ input {
 }
 
 @import '_fonts.scss';
-@import 'media';
+@import 'animation.css';
+@import '_media';
+ 

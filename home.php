@@ -2,7 +2,7 @@
 
 
 <main>
-	<div class="head-project">
+	<div class="head-project wow fadeIn" data-wow-delay="0.7s" style="visibility: hidden; animation-name: none;">
 		<div class="wrap">
 			<div class="block">
 				<a href="" class="logo">
@@ -19,7 +19,7 @@
 						<span><strong>870</strong> posts</span>
 					</div>
 					<div class="block-date">
-						<label for="">Date</label>
+						<label>Date</label>
 						<div class='input-group date' id='datetimepicker_start'>
 							<input type='text' class="form-control" placeholder="from" />
 							<span class="input-remove-date">
@@ -44,7 +44,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="all-media">
+	<div class="all-media wow fadeIn" data-wow-delay="1s" style="visibility: hidden; animation-name: none;">
 		<div class="wrap">
 			<div class="wrap-media">
 				<div class="item-media">
